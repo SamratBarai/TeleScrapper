@@ -11,26 +11,31 @@ Python and the following dependencies are required to run the program
  - Requests==2.28.2
 
 ## Windows
-    Run the Install.bat to install python and required dependencies
+Run the Install.bat to install python and required dependencies
+
 ## Other
-    Open a terminal and use the command to install dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
+Open a terminal and use the command to install dependencies:
+```
+pip install -r requirements.txt
+```
 
 # Usage
 
 ## Windows
-    Run the "Run.bat" file for the url scrapper
-    Run the "Run batch.bat" file for the batch scrapper, first edit the python file and edit the username in __init__ function
+
+Run the "Run.bat" file for the url scrapper
+Run the "Run batch.bat" file for the batch scrapper, first edit the python file and edit the username in __init__ function
+
 ## Other
-    Open a terminal and type `python scrap.py` for the url scrapper
-    Open a terminal and type `python looppy` for the batch scrapper, first edit the python file and edit the username in __init__ function
+Open a terminal and run `python scrap.py` for the url scrapper
 
-For both systems, enter the telegram link and folder name (default: content) to use scrap.py
-For both systems, enter the telegram id and folder name (default: content) to use loop.py
+Open a terminal and run `python loop.py` for the batch scrapper, first edit the python file and edit the username in __init__ function
 
-*NOTE: The loop.py is created for downloading from bulk posts in a channel, see inside to change the username of the channel*
+***Enter the telegram link and folder name (default: content) to use scrap.py***
+
+***Enter the telegram id and folder name (default: content) to use loop.py***
+
+# **NOTE: The loop.py is created for downloading from bulk posts in a channel, see inside to change the username of the channel**
 
 # License
 This project was originally created by stellio as [Telegrap-Post-Scrapper](https://https://github.com/Steelio/Telegram-Post-Scraper)
