@@ -38,6 +38,6 @@ Open a terminal and run `python loop.py` for the batch scrapper, first edit the 
 # **NOTE: The loop.py is created for downloading from bulk posts in a channel, see inside to change the username of the channel**
 
 # License
-This project was originally created by stellio as [Telegrap-Post-Scrapper](https://https://github.com/Steelio/Telegram-Post-Scraper)
+This project was originally created by stellio as [Telegram-Post-Scrapper](https://https://github.com/Steelio/Telegram-Post-Scraper)
 
 Later recreated by @SamratBarai
