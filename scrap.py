@@ -94,7 +94,7 @@ def downloadIMGs(urlCounter, postFolder, postId, lastIMGPost, mainPath, imageUrl
             f.write(response.content)
         
         # Finish messege
-        print("[INFO] Downloaded ", imgCounter, " image as ", file_path)
+        print("[INFO] Downloaded ", imgCounter, " image as ", file_path + str(imgCounter) + ".jpg")
         imgCounter += 1
     
     print("[SYSTEM] Images downloaded successfully!\n")
@@ -138,7 +138,7 @@ def downloadVIDs(urlCounter, postFolder, postId, lastVIDPost, mainPath, videoUrl
             f.write(response.content)
 
         # Finish messege
-        print("[INFO] Downloaded ", vidCounter, " image as ", file_path)
+        print("[INFO] Downloaded ", vidCounter, " video as ", file_path + str(vidCounter) + ".mp4")
         vidCounter += 1
 
     print("[SYSTEM] Videos downloaded successfully!")
@@ -161,7 +161,7 @@ def main(urls, mainFolder):
     lastIMGPost = ""
     lastVIDPost = ""
     lastIMGPostURL = "https://picsum.photos/200"
-    lastVIDPostURL = ""
+    lastVIDPostURL = "https://www.dropbox.com/s/0x2ke57h7wv49ll/Sample_512x288.mp4"
 
     postFolders = []
     postIds = []
